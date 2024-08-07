@@ -1,0 +1,19 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+  }
+  
