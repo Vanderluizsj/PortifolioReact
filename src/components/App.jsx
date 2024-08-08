@@ -2,10 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Curriculo from '../pages/Curriculo'
 import Index from '../pages/Index'
 import Portifolio from '../pages/Portifolio'
+import './App.css'
 const App = () => {
   return (
     
-    <div className='container'>
+    <div className='container' id='efeito-vidro'>
       <BrowserRouter>
         <Routes>
           <Route path={"/"} element={<Index />} />

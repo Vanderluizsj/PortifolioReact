@@ -2,7 +2,7 @@ import './Navbar.css'
 
 const Navbar = ({ }) => {
     return (
-        <nav class="navbar navbar-expand-lg shadow-sm rounded p-2" data-bs-theme="dark" id="nav">
+        <nav class="navbar navbar-expand-lg shadow-sm rounded p-2" id="efeito-vidro">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>

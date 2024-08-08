@@ -4,7 +4,7 @@ function Sobre() {
     return (
         <div class=''>
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" >
                     <h5 class="card-title mb-0">
                         Sobre mim
                     </h5>

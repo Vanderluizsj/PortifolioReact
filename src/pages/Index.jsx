@@ -7,13 +7,13 @@ import Apresentacao from '../components/Apresentacao/Apresentacao'
 function Index() {
   return (
     <>    
-    <div class='card rounded'>
+    <div class='card rounded' id='efeito-vidro'>
       <Navbar/>      
     </div>
-    <div className='card rounded p-3 mt-3'>
+    <div class='card rounded p-3 mt-3' id='efeito-vidro'>
       <Apresentacao/>
     </div>
-    <div class='card rounded mt-3'>
+    <div class='card rounded mt-3' id='efeito-vidro'>
       <Footer/>
     </div>
     </>
