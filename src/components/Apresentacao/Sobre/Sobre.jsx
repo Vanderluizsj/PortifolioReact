@@ -1,8 +1,9 @@
 import React from 'react'
+import Tecnologias from './Tecnologias/Tecnologias'
 
 function Sobre() {
     return (
-        <div class=''>
+        <div className=''>
             <div class="card">
                 <div class="card-header" >
                     <h5 class="card-title mb-0">
@@ -11,79 +12,16 @@ function Sobre() {
                 </div>
                 <div class="card-body">
                     <p class="card-text text-justify">
-                        Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo
-                        mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Suco de cevadiss
-                        deixa as pessoas mais interessantis. Admodum accumsan disputationi eu sit. Vide electram
-                        sadipscing et per.
-                        Mé faiz elementum girarzis, nisi eros vermeio. Si u mundo tá muito paradis? Toma um mé
-                        que o mundo vai girarzis! Nec orci ornare consequat. Praesent lacinia ultrices
-                        consectetur. Sed non ipsum felis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
-                        non tellus tristique interdum.
+                        Sou um desenvolvedor fullstack com uma paixão por criar soluções web completas e eficientes. Meu foco está em construir aplicações que são não apenas funcionais, mas também intuitivas e visualmente atraentes.</p>
+                        <p class="card-text text-justify">
+                        Com um background em Ciências da Computação, adquiri habilidades práticas tanto no desenvolvimento frontend quanto backend. No frontend, utilizo principalmente Angular, scss e Bootstrap para criar interfaces dinâmicas e responsivas. No backend, tenho experiência com .NET e SqlServer, que me permitem construir APIs robustas e escaláveis. Atualmente estou desenvolvendo abilidades de desenvolvimento em React no frontend e Node.js no backend.
                     </p>
                 </div>
             </div>
 
 
-            <div class="card mt-3">
-                <div class="card-header">
-                    <h5 class="card-title mb-0">Experiências</h5>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="rounded-circle img-fluid" src="https://bulma.io/images/placeholders/128x128.png" alt="" />
-                        </div>
-                        <div class="col-md-9">
-                            <h5 class="card-title">
-                                Javascript Developer
-                                <span class="badge bg-dark">Empresa chama x</span>
-                            </h5>
-                            <p class="text-justify">
-                                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa a rmauma pindureta.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="rounded-circle img-fluid" src="https://bulma.io/images/placeholders/128x128.png" alt="" />
-                        </div>
-                        <div class="col-md-9">
-                            <h5 class="card-title">
-                                Javascript Developer
-                                <span class="badge bg-dark">Empresa chama x</span>
-                            </h5>
-                            <p class="text-justify">
-                                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa a rmauma pindureta.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card mt-3">
-                <div class="card-header">
-                    <h5 class="card-title mb-0">Formação</h5>
-                </div>
-                <div class="card-body">
-                    <div class="mb-3">
-                        <h5 class="card-title">Javascript fullstack 8 week</h5>
-                        <p class="card-text text-justify">
-                            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.
-                        </p>
-                    </div>
-                    <hr />
-                    <div class="mb-3">
-                        <h5 class="card-title">HTML + CSS + BULMA</h5>
-                        <p class="card-text text-justify">
-                            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <Tecnologias></Tecnologias>
+            
         </div>
 
 

@@ -1,21 +1,27 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
-import Apresentacao from '../components/Apresentacao/Apresentacao'
+import Sobre from '../components/Apresentacao/Sobre/Sobre'
+import Foto from '../components/Foto/Foto'
 
 
 function Index() {
   return (
     <>    
-    <div class='card rounded' id='efeito-vidro'>
-      <Navbar/>      
-    </div>
-    <div class='card rounded p-3 mt-3' id='efeito-vidro'>
-      <Apresentacao/>
-    </div>
-    <div class='card rounded mt-3' id='efeito-vidro'>
+    
+      <Navbar selectedIndex={0}/>      
+    
+      <div className='row p-3'>
+            <div className='card col-md-3' id='efeito-vidro'>
+                <Foto></Foto>
+            </div>
+            <div className='card col-md-9 p-3' id='efeito-vidro'>
+                <Sobre></Sobre>
+            </div>
+        </div>
+    
       <Footer/>
-    </div>
+    
     </>
     
   )
