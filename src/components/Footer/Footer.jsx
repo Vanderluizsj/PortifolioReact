@@ -22,7 +22,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/curriculo" class="text-white">Curriculo</a>
+                  <a href="/PortifolioReact/#/curriculo" class="text-white">Curriculo</a>
                 </h6>
               </div>
 
@@ -32,7 +32,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/portifolio" class="text-white">Portifolio</a>
+                  <a href="/PortifolioReact/#/portifolio" class="text-white">Portifolio</a>
                 </h6>
               </div>
               {/*Grid column*/}

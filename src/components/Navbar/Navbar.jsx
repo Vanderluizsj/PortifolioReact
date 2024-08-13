@@ -9,8 +9,8 @@ const Navbar = ({ selectedIndex }) => {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">                
-                <a className={`nav-link ${selectedIndex == 1 ? `active` : ``}`} href="/curriculo">Currículo</a>
-                <a className={`nav-link ${selectedIndex == 2 ? `active` : ``}`} href="/portifolio">Portifólio</a>
+                <a className={`nav-link ${selectedIndex == 1 ? `active` : ``}`} href="/PortifolioReact/#/curriculo">Currículo</a>
+                <a className={`nav-link ${selectedIndex == 2 ? `active` : ``}`} href="/PortifolioReact/#/portifolio">Portifólio</a>
                 </div>
             </div>
             <div class="d-flex justify-content-end">
