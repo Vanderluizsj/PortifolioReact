@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = ({ selectedIndex }) => {
     return (
         <nav class="navbar navbar-expand-lg shadow-sm rounded p-2" id="efeito-vidro">
-            <a className={`navbar-brand ${selectedIndex == 0 ? `active` : ``}`} href="/">Vander</a>
+            <a className={`navbar-brand ${selectedIndex == 0 ? `active` : ``}`} href="/PortifolioReact">Vander</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>

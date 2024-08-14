@@ -14,7 +14,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/" class="text-white">Home</a>
+                  <a href="/PortifolioReact" class="text-white">Home</a>
                 </h6>
               </div>
               {/*Grid column*/}
