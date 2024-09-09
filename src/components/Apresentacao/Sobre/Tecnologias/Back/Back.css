@@ -1,0 +1,31 @@
+/* Estilização básica para os cartões de backend */
+.back-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom no hover do cartão */
+.back-card:hover {
+  transform: scale(1.05);
+}
+
+/* Texto inicialmente oculto */
+.card-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Texto visível quando o cartão é hover */
+.card-text.visible {
+  opacity: 1;
+}
+
+/* Ajuste opcional para a imagem */
+.back-card img {
+  transition: transform 0.3s ease;
+}
+
+.back-card:hover img {
+  transform: scale(1.1); /* Aumenta a imagem no hover */
+}

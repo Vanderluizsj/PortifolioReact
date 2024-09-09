@@ -7,7 +7,7 @@ import Formacao from '../components/Formacao/Formacao'
 function Curriculo() {
   return (
     <>
-      <Navbar selectedIndex={1} />
+      
 
       <div className='row p-3'>
         <div className='card col-md-3' id='efeito-vidro'>
@@ -18,7 +18,9 @@ function Curriculo() {
         </div>
       </div>
 
-      <Footer />
+      <div className='card' id='efeito-vidro'>
+    <Footer/>
+    </div>
     </>
   )
 }

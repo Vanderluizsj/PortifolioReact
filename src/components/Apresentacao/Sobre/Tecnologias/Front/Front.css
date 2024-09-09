@@ -1,0 +1,31 @@
+/* Estilização básica para os cartões de front-end */
+.front-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .front-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  /* Texto inicialmente oculto */
+  .card-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Texto visível quando o cartão está no estado "hovered" */
+  .card-text.visible {
+    opacity: 1;
+  }
+  
+  /* Ajuste opcional para a imagem */
+  .front-card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .front-card:hover img {
+    transform: scale(1.1); /* Aumenta um pouco a imagem no hover */
+  }
+  

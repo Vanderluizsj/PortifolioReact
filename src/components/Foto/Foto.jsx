@@ -1,6 +1,6 @@
 import React from 'react'
 import './Foto.css'
-import Eu from './assets/Eu.jpeg'
+import Eu from './assets/Eu4.jpg'
 
 function Foto() {
     return (

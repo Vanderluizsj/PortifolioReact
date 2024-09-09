@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = ({ }) => {
   return (
-    <div class="card ">
+    <div>
       {/*Footer*/}
       <footer class="text-center rounded shadow-sm">
         {/*Grid container*/}
@@ -14,7 +14,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/PortifolioReact" class="text-white">Home</a>
+                  <a href="/PortifolioReact">Home</a>
                 </h6>
               </div>
               {/*Grid column*/}
@@ -22,7 +22,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/PortifolioReact/#/curriculo" class="text-white">Curriculo</a>
+                  <a href="/PortifolioReact/#/curriculo">Curriculo</a>
                 </h6>
               </div>
 
@@ -32,7 +32,7 @@ const Footer = ({ }) => {
               {/*Grid column*/}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/PortifolioReact/#/portifolio" class="text-white">Portifolio</a>
+                  <a href="/PortifolioReact/#/portifolio">Portifolio</a>
                 </h6>
               </div>
               {/*Grid column*/}
@@ -59,22 +59,22 @@ const Footer = ({ }) => {
           <section class="text-center mb-3">
             <a href="https://www.facebook.com/vanderluiz.rosadeoliveira/"
               target="_blank"
-              class="text-white me-3">
+              class="me-3">
               <i class="fa fa-facebook"></i>
             </a>
             <a href="https://www.instagram.com/vanderluiz_rosa_de_oliveira/"
               target="_blank"
-              class="text-white me-3">
+              class="me-3">
               <i class="fa fa-instagram"></i>
             </a>
             <a href="https://www.linkedin.com/in/vanderluiz/"
               target="_blank"
-              class="text-white me-3">
+              class="me-3">
               <i class="fa fa-linkedin"></i>
             </a>
             <a href="https://github.com/Vanderluizsj"
               target="_blank"
-              class="text-white me-3">
+              class="me-3">
               <i class="fa fa-github"></i>
             </a>
           </section>

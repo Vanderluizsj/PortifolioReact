@@ -9,7 +9,7 @@ function Index() {
   return (
     <>    
     
-      <Navbar selectedIndex={0}/>      
+         
     
       <div className='row p-3'>
             <div className='card col-md-3' id='efeito-vidro'>
@@ -19,8 +19,10 @@ function Index() {
                 <Sobre></Sobre>
             </div>
         </div>
-    
-      <Footer/>
+    <div className='card' id='efeito-vidro'>
+    <Footer/>
+    </div>
+      
     
     </>
     

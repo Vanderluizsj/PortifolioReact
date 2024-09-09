@@ -25,3 +25,47 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );  
 }
+body{
+  background: rgb(59, 33, 231);
+background: linear-gradient(90deg, rgba(37, 247, 198, 0.883) 31%, rgba(7, 106, 61, 0.976) 98%);
+}
+
+/* Adicione isso ao seu arquivo main.css */
+
+/* Estilos gerais para o modo escuro */
+body.dark-mode {
+  background: rgb(222, 9, 9);
+  background: linear-gradient(90deg, rgba(11, 10, 10, 0.898) 0%, rgba(29, 2, 2, 0.723) 100%);
+  color: #fff; /* Define a cor do texto padrão como branca */
+}
+
+/* Estilos específicos para elementos com efeito de vidro */
+body.dark-mode #efeito-vidro {
+  background: rgba(0, 0, 0, 0.322);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.539);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Ajustes para as cards */
+body.dark-mode .card {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.516);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #fff; /* Define a cor do texto dentro das cards como branca */
+}
+
+/* Estilos para links e botões no modo escuro */
+body.dark-mode .nav-link,
+body.dark-mode .navbar-brand,
+body.dark-mode .btn {
+  color: #fff; /* Define a cor do texto dos links e botões como branca */
+}
+
+body.dark-mode .btn-outline-light {
+  border-color: #fff; /* Define a cor da borda dos botões de contorno como branca */
+  color: #fff; /* Define a cor do texto dos botões de contorno como branca */
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Ajusta a cor de fundo ao passar o mouse sobre os botões */
+}
